@@ -1,3 +1,3 @@
-const CLI = require("./lib/usr");
+const User = require("./lib/usr");
 
-new CLI().run();
+new User().askUser();
